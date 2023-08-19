@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+#container{
+    margin: 10px 30px;
+}
+#container > div{
+    margin:20px 0;
+}
+#page-title{
+    width:fit-content;
+    font-size: 40px;
+    top: 62px;
+    left: 65px;
+}
+#inputs{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 15px;
+}
+#inputs input{
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+    font-size: 18px;
+    width: 29%;
+    padding: 12px;
+    border-radius: 5px;
+}
+#crud-button{
+    height: 45px;
+    width: 40%;
+    font-size: 23px;
+    cursor: pointer;
+}
+#searchInput{
+    width:97%;
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 5px;
+}
+#result-table{
+    margin-top: 45px;
+    border-collapse:collapse;
+    width: 99%;
+    /* text-align: center; */
+}
+table,tr,th{
+    border: 1px solid white;
+}
+tr,th{
+    font-size: 20px;
+    height: 27px;
+    padding: 10px;
+}
+td,tr{
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+td,th{
+    text-align: start;
+    padding: 9px 12px;
+}
+td{
+    padding: 15px;
+}
+/* thead th:last-child button{
+    float: right;
+} */
